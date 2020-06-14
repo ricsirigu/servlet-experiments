@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Echo</title>
+<link rel="stylesheet"
+	href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+	integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
+	crossorigin="anonymous">
+<style>
+body {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+}
+</style>
+</head>
+<body>
+	<h1>Echo server</h1>
+	<div class="myForm">
+		<form class="pure-form" action="/echo" method="post">
+			<fieldset>
+				<input type="text" placeholder="Name" name="name" /> <label
+					for="default-remember">
+					<button type="submit" class="pure-button pure-button-primary">Submit</button>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
